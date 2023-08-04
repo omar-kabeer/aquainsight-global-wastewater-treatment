@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 import itertools
 import pickle
+import geopandas as gpd
+
 
 from pandas.plotting import scatter_matrix
 from sklearn.model_selection import train_test_split
@@ -45,5 +47,5 @@ from sklearn.metrics import precision_recall_curve, average_precision_score
 
 import warnings
 warnings.filterwarnings('ignore')
-pd.set_option('display.max_rows', 200)
-pd.set_option('display.max_columns', 200)
+pd.set_option('display.max_rows', 1000)
+pd.set_option('display.max_columns', 1000)
