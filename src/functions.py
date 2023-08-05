@@ -1,3 +1,4 @@
+from dependencies import *
 def combine_dataframes(dfs):
     """The combine_dataframes function takes a list of dataframes as input and concatenates them into a single dataframe.
 
